@@ -25,10 +25,21 @@ create table Usuario
     id_reg number(2) CONSTRAINT id_reg_fk REFERENCES Regiao
 );
 
+commit;
+
 INSERT INTO Regiao (id_reg, nome_regiao, taxa_irradiacao) VALUES (1, 'Norte', 4.95);
 INSERT INTO Regiao (id_reg, nome_regiao, taxa_irradiacao) VALUES (2, 'Nordeste', 6);
 INSERT INTO Regiao (id_reg, nome_regiao, taxa_irradiacao) VALUES (3, 'Centro Oeste', 5.5);
 INSERT INTO Regiao (id_reg, nome_regiao, taxa_irradiacao) VALUES (4, 'Sudeste', 5);
 INSERT INTO Regiao (id_reg, nome_regiao, taxa_irradiacao) VALUES (5, 'Sul', 4.25);
 
-commit;
+INSERT INTO Usuario (id_usu, nome_usu, email_usu, senha_usu, consumo_men, custo_energ, custo_med, area_desejada, id_reg) VALUES (1, 'Carlos Silva', 'carlos.silva@email.com', 'senha123', 500, 25, 35, 80, 1);
+INSERT INTO Usuario (id_usu, nome_usu, email_usu, senha_usu, consumo_men, custo_energ, custo_med, area_desejada, id_reg) VALUES (2, 'Ana Pereira', 'ana.pereira@email.com', 'senha456', 800, 30, 45, 120, 2);
+INSERT INTO Usuario (id_usu, nome_usu, email_usu, senha_usu, consumo_men, custo_energ, custo_med, area_desejada, id_reg) VALUES (3, 'Felipe Costa', 'felipe.costa@email.com', 'senha789', 1000, 28, 40, 150, 3);
+INSERT INTO Usuario (id_usu, nome_usu, email_usu, senha_usu, consumo_men, custo_energ, custo_med, area_desejada, id_reg) VALUES (4, 'Maria Oliveira', 'maria.oliveira@email.com', 'senha1011', 350, 20, 30, 60, 1);
+INSERT INTO Usuario (id_usu, nome_usu, email_usu, senha_usu, consumo_men, custo_energ, custo_med, area_desejada, id_reg) VALUES (5, 'José Almeida', 'jose.almeida@email.com', 'senha1213', 600, 27, 33, 90, 2);
+INSERT INTO Usuario (id_usu, nome_usu, email_usu, senha_usu, consumo_men, custo_energ, custo_med, area_desejada, id_reg) VALUES (6, 'Renata Souza', 'renata.souza@email.com', 'senha1415', 950, 32, 38, 110, 3);
+INSERT INTO Usuario (id_usu, nome_usu, email_usu, senha_usu, consumo_men, custo_energ, custo_med, area_desejada, id_reg) VALUES (7, 'Lucas Santos', 'lucas.santos@email.com', 'senha1617', 1500, 35, 50, 200, 4);
+INSERT INTO Usuario (id_usu, nome_usu, email_usu, senha_usu, consumo_men, custo_energ, custo_med, area_desejada, id_reg) VALUES (8, 'Juliana Lima', 'juliana.lima@email.com', 'senha1819', 400, 22, 28, 70, 4);
+INSERT INTO Usuario (id_usu, nome_usu, email_usu, senha_usu, consumo_men, custo_energ, custo_med, area_desejada, id_reg) VALUES (9, 'Paulo Barbosa', 'paulo.barbosa@email.com', 'senha2021', 750, 29, 42, 130, 2);
+INSERT INTO Usuario (id_usu, nome_usu, email_usu, senha_usu, consumo_men, custo_energ, custo_med, area_desejada, id_reg) VALUES (10, 'Fernanda Rocha', 'fernanda.rocha@email.com', 'senha2223', 850, 33, 47, 140, 1);
