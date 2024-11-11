@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D301BBE6-B702-67F1-E6CB-CC81742C92E1" name="Regiao">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-11 01:28:34 UTC</createdTime>
+<ownerDesignName>Diagramas</ownerDesignName>
+<engineerTo>
+<item key="C541CCF0-429F-79A7-96E8-7B2AA3F1E94A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_reg" id="68E409AD-CCD3-9206-AB71-12C6F73C6556">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-11 01:28:46 UTC</createdTime>
+<ownerDesignName>Diagramas</ownerDesignName>
+<engineerTo>
+<item key="C541CCF0-429F-79A7-96E8-7B2AA3F1E94A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_regiao" id="4C971D1B-057A-F1F9-EC3B-66FBC8438595">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-11 01:29:10 UTC</createdTime>
+<ownerDesignName>Diagramas</ownerDesignName>
+<engineerTo>
+<item key="C541CCF0-429F-79A7-96E8-7B2AA3F1E94A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="taxa_irradiacao" id="7956E412-7FB9-B8DB-C632-C8A0910F6127">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-11 01:29:30 UTC</createdTime>
+<ownerDesignName>Diagramas</ownerDesignName>
+<engineerTo>
+<item key="C541CCF0-429F-79A7-96E8-7B2AA3F1E94A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="708E5879-2B45-0E4C-5ADB-CD4AA1705456" name="Regiao PK">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-11 01:29:08 UTC</createdTime>
+<ownerDesignName>Diagramas</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C541CCF0-429F-79A7-96E8-7B2AA3F1E94A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>68E409AD-CCD3-9206-AB71-12C6F73C6556</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
