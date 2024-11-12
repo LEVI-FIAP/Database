@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7955CB7D-5E30-FDD9-A74B-304E98E071B9" name="Painel">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-12 03:11:48 UTC</createdTime>
+<generatorID>2E314A65-CAD4-A1D0-D03C-1C1E481A6AF3</generatorID>
+<ownerDesignName>Diagramas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_painel" id="F5C5A122-F65A-8301-D4CD-088E3A24BA31">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-12 03:11:48 UTC</createdTime>
+<generatorID>F74EC0C7-92E3-879B-9B03-EFFFB9896A17</generatorID>
+<ownerDesignName>Diagramas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qtnd_pain" id="EFF56659-7E23-7D14-B32E-86E4E82C49AF">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-12 03:11:48 UTC</createdTime>
+<generatorID>48BA7FF7-7C27-A953-A2BE-DC832E3F8EA4</generatorID>
+<ownerDesignName>Diagramas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="potencia_total" id="6F796633-92A0-97FC-49E3-D9850AEF0B87">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-12 03:11:48 UTC</createdTime>
+<generatorID>2C3BFD4A-624F-AC63-47D0-32AFA1686F59</generatorID>
+<ownerDesignName>Diagramas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="custo_total" id="5C64C4DB-758D-C7D0-BA80-E978F5A40D32">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-12 03:11:48 UTC</createdTime>
+<generatorID>B74C357C-D0B0-F51F-A8BC-B76E1E5E35B2</generatorID>
+<ownerDesignName>Diagramas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="economia_mensal" id="99A4448D-34F2-B94D-B5FA-A4F577D4CD51">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-12 03:11:48 UTC</createdTime>
+<generatorID>F7BD36BB-BE68-4EEA-BF58-CC0657425394</generatorID>
+<ownerDesignName>Diagramas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="payback" id="68CF8FCF-2952-7F94-A687-E0577053B86B">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-12 03:11:48 UTC</createdTime>
+<generatorID>4DD4F771-B7C1-DE53-0837-80BCF7B7EFF2</generatorID>
+<ownerDesignName>Diagramas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="energia_mes" id="E4A81B80-4EBF-F35A-1DD4-633394D34340">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-12 03:29:57 UTC</createdTime>
+<generatorID>5826EC73-8EAD-5A18-52F8-E49DBC9D533E</generatorID>
+<ownerDesignName>Diagramas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5DC2E593-37D2-F133-2261-CBE3EC43FBCB" name="Painel_PK">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-12 03:11:48 UTC</createdTime>
+<generatorID>B0BF77B8-A88F-75E1-A7B9-4022D929E327</generatorID>
+<ownerDesignName>Diagramas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5C5A122-F65A-8301-D4CD-088E3A24BA31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
