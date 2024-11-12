@@ -135,7 +135,7 @@
 <dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_painel" id="0F75182F-723E-06F2-2B62-F04A0C951B29">
+<Attribute name="id_relatorio" id="0F75182F-723E-06F2-2B62-F04A0C951B29">
 <createdBy>Luiz</createdBy>
 <createdTime>2024-11-12 03:11:10 UTC</createdTime>
 <generatorID>D87F36E3-2F7D-ABAD-D350-9065323847DB</generatorID>
