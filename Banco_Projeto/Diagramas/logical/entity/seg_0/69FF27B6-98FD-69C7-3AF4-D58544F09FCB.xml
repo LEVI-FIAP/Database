@@ -67,32 +67,6 @@
 <dataTypePrecision>8</dataTypePrecision>
 <ownDataTypeParameters>,8,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="custo_energ" id="8A5FA459-CCCC-2DA9-51CC-25B3960DFED0">
-<createdBy>Luiz</createdBy>
-<createdTime>2024-11-11 01:26:24 UTC</createdTime>
-<ownerDesignName>Diagramas</ownerDesignName>
-<engineerTo>
-<item key="C541CCF0-429F-79A7-96E8-7B2AA3F1E94A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,7,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="custo_med" id="8320F5EC-4221-DF08-55BF-3A85E2BBE4B9">
-<createdBy>Luiz</createdBy>
-<createdTime>2024-11-11 01:27:14 UTC</createdTime>
-<ownerDesignName>Diagramas</ownerDesignName>
-<engineerTo>
-<item key="C541CCF0-429F-79A7-96E8-7B2AA3F1E94A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,7,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="area_desejada" id="D5E04BB4-9907-C252-0DEB-853472E3A567">
 <createdBy>Luiz</createdBy>
 <createdTime>2024-11-11 01:33:16 UTC</createdTime>
