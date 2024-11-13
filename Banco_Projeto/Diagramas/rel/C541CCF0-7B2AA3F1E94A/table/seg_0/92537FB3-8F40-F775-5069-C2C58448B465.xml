@@ -56,6 +56,30 @@
 <ownDataTypeParameters>,8,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="custo_energ" id="155DAFFC-64AE-D8FF-B57E-FB1C09EB5D84">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-11 01:31:13 UTC</createdTime>
+<generatorID>8A5FA459-CCCC-2DA9-51CC-25B3960DFED0</generatorID>
+<ownerDesignName>Diagramas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="custo_med" id="2140DDB0-30A8-4120-B283-DC9517B95972">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-11 01:31:13 UTC</createdTime>
+<generatorID>8320F5EC-4221-DF08-55BF-3A85E2BBE4B9</generatorID>
+<ownerDesignName>Diagramas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="area_desejada" id="35D1D73D-3C0F-651A-73E8-371CD0561133">
 <createdBy>Luiz</createdBy>
 <createdTime>2024-11-11 01:35:24 UTC</createdTime>
@@ -90,14 +114,14 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="148CCB41-6B33-231D-D65E-2FCBB1BA2CF3" referredColumn="BEA1DE42-7F73-DC75-0CF8-E08C58B1D45C"/>
 </associations>
 </Column>
-<Column name="Relatorio_id_relatorio" id="1E0CC71F-9328-4D99-A044-684728760FE7">
+<Column name="Painel_id_painel" id="1E0CC71F-9328-4D99-A044-684728760FE7">
 <createdBy>Luiz</createdBy>
 <createdTime>2024-11-12 03:11:48 UTC</createdTime>
 <generatorID>0F75182F-723E-06F2-2B62-F04A0C951B29</generatorID>
@@ -106,7 +130,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -149,7 +173,7 @@
 <colUsage columnID="7886AC47-ED0C-342C-2579-5AB9F1B3B6D5"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E54FD861-0724-1453-9FD1-E2AA823B6506" name="Usuario_Relatorio_FK">
+<ind_PK_UK id="E54FD861-0724-1453-9FD1-E2AA823B6506" name="Usuario_Painel_FK">
 <createdBy>Luiz</createdBy>
 <createdTime>2024-11-12 03:11:48 UTC</createdTime>
 <generatorID>D87F36E3-2F7D-ABAD-D350-9065323847DB</generatorID>
