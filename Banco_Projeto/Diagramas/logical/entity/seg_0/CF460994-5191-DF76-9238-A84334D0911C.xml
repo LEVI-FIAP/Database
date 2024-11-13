@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D301BBE6-B702-67F1-E6CB-CC81742C92E1" name="Regiao">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CF460994-5191-DF76-9238-A84334D0911C" name="Usuario">
 <createdBy>Luiz</createdBy>
-<createdTime>2024-11-11 01:28:34 UTC</createdTime>
+<createdTime>2024-11-13 22:34:38 UTC</createdTime>
 <ownerDesignName>Diagramas</ownerDesignName>
 <engineerTo>
 <item key="C541CCF0-429F-79A7-96E8-7B2AA3F1E94A" value="true"/>
@@ -15,35 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_reg" id="68E409AD-CCD3-9206-AB71-12C6F73C6556">
+<Attribute name="id_usu" id="6E3AF219-90DB-B5AB-7C31-910ED620928B">
 <createdBy>Luiz</createdBy>
-<createdTime>2024-11-11 01:28:46 UTC</createdTime>
-<ownerDesignName>Diagramas</ownerDesignName>
-<engineerTo>
-<item key="C541CCF0-429F-79A7-96E8-7B2AA3F1E94A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,2,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="nome_regiao" id="4C971D1B-057A-F1F9-EC3B-66FBC8438595">
-<createdBy>Luiz</createdBy>
-<createdTime>2024-11-11 01:29:10 UTC</createdTime>
-<ownerDesignName>Diagramas</ownerDesignName>
-<engineerTo>
-<item key="C541CCF0-429F-79A7-96E8-7B2AA3F1E94A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="horas_sol" id="7956E412-7FB9-B8DB-C632-C8A0910F6127">
-<createdBy>Luiz</createdBy>
-<createdTime>2024-11-11 01:29:30 UTC</createdTime>
+<createdTime>2024-11-13 22:35:25 UTC</createdTime>
 <ownerDesignName>Diagramas</ownerDesignName>
 <engineerTo>
 <item key="C541CCF0-429F-79A7-96E8-7B2AA3F1E94A" value="true"/>
@@ -52,22 +26,59 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="E038536E-C9ED-5039-F4D5-347F52AE414B">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-13 22:35:42 UTC</createdTime>
+<ownerDesignName>Diagramas</ownerDesignName>
+<engineerTo>
+<item key="C541CCF0-429F-79A7-96E8-7B2AA3F1E94A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="senha" id="39D7ACA2-1652-FA88-0013-0A99C2BE74CC">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-13 22:36:06 UTC</createdTime>
+<ownerDesignName>Diagramas</ownerDesignName>
+<engineerTo>
+<item key="C541CCF0-429F-79A7-96E8-7B2AA3F1E94A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_usuario" id="0DD209BF-B283-B9F1-6876-8BA2AE5DFB45">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-13 22:36:41 UTC</createdTime>
+<ownerDesignName>Diagramas</ownerDesignName>
+<engineerTo>
+<item key="C541CCF0-429F-79A7-96E8-7B2AA3F1E94A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="708E5879-2B45-0E4C-5ADB-CD4AA1705456" name="Regiao PK">
+<identifier id="9AB41A22-5B29-6E51-FFD7-368D7DC5D4FA" name="Usuario PK">
 <createdBy>Luiz</createdBy>
-<createdTime>2024-11-11 01:29:08 UTC</createdTime>
+<createdTime>2024-11-13 22:35:13 UTC</createdTime>
 <ownerDesignName>Diagramas</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="C541CCF0-429F-79A7-96E8-7B2AA3F1E94A" value="false"/>
+<item key="C541CCF0-429F-79A7-96E8-7B2AA3F1E94A" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>68E409AD-CCD3-9206-AB71-12C6F73C6556</attributeRef>
+<attributeRef>6E3AF219-90DB-B5AB-7C31-910ED620928B</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

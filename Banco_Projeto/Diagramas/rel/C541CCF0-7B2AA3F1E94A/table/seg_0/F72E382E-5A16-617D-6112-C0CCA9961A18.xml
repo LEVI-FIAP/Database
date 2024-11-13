@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D03F2A84-3A79-9AA2-86C1-705EABF4E393" name="Regiao">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F72E382E-5A16-617D-6112-C0CCA9961A18" name="Regiao">
 <createdBy>Luiz</createdBy>
-<createdTime>2024-11-11 01:31:13 UTC</createdTime>
+<createdTime>2024-11-13 22:38:47 UTC</createdTime>
 <generatorID>D301BBE6-B702-67F1-E6CB-CC81742C92E1</generatorID>
 <ownerDesignName>Diagramas</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_reg" id="BEA1DE42-7F73-DC75-0CF8-E08C58B1D45C">
+<Column name="id_reg" id="C79DFBC3-B88F-CD06-3D02-642F350DA885">
 <createdBy>Luiz</createdBy>
-<createdTime>2024-11-11 01:31:13 UTC</createdTime>
+<createdTime>2024-11-13 22:38:47 UTC</createdTime>
 <generatorID>68E409AD-CCD3-9206-AB71-12C6F73C6556</generatorID>
 <ownerDesignName>Diagramas</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -20,9 +20,9 @@
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nome_regiao" id="C3FD94CB-92D6-D85A-81B6-9B976E7BA4FB">
+<Column name="nome_regiao" id="32CC630E-29A3-86E8-5949-5E8398145D17">
 <createdBy>Luiz</createdBy>
-<createdTime>2024-11-11 01:31:13 UTC</createdTime>
+<createdTime>2024-11-13 22:38:47 UTC</createdTime>
 <generatorID>4C971D1B-057A-F1F9-EC3B-66FBC8438595</generatorID>
 <ownerDesignName>Diagramas</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -32,30 +32,31 @@
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="taxa_irradiacao" id="C472C43E-DFB3-9D66-22D3-F9EE8F49DC47">
+<Column name="horas_sol" id="6F821CCE-AE88-CD37-F297-9CD37B75CE5A">
 <createdBy>Luiz</createdBy>
-<createdTime>2024-11-11 01:31:13 UTC</createdTime>
+<createdTime>2024-11-13 22:38:47 UTC</createdTime>
 <generatorID>7956E412-7FB9-B8DB-C632-C8A0910F6127</generatorID>
 <ownerDesignName>Diagramas</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT021</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="01D6EF6F-C390-2E87-5CCE-AFF68C5D26D0" name="Regiao_PK">
+<ind_PK_UK id="3507ED3E-3787-101D-1773-305F2038FDC6" name="Regiao_PK">
 <createdBy>Luiz</createdBy>
-<createdTime>2024-11-11 01:31:13 UTC</createdTime>
+<createdTime>2024-11-13 22:38:47 UTC</createdTime>
 <generatorID>708E5879-2B45-0E4C-5ADB-CD4AA1705456</generatorID>
 <ownerDesignName>Diagramas</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="BEA1DE42-7F73-DC75-0CF8-E08C58B1D45C"/>
+<colUsage columnID="C79DFBC3-B88F-CD06-3D02-642F350DA885"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

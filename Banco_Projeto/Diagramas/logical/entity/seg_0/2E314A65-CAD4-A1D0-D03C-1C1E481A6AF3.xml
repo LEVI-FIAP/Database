@@ -28,9 +28,9 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="qtnd_pain" id="48BA7FF7-7C27-A953-A2BE-DC832E3F8EA4">
+<Attribute name="consumo_mensal" id="4339397A-1329-A3B2-25EC-FE5F3D825CE7">
 <createdBy>Luiz</createdBy>
-<createdTime>2024-11-12 03:00:53 UTC</createdTime>
+<createdTime>2024-11-13 22:17:44 UTC</createdTime>
 <ownerDesignName>Diagramas</ownerDesignName>
 <engineerTo>
 <item key="C541CCF0-429F-79A7-96E8-7B2AA3F1E94A" value="true"/>
@@ -38,73 +38,148 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>8</dataTypePrecision>
-<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
 </Attribute>
-<Attribute name="potencia_total" id="2C3BFD4A-624F-AC63-47D0-32AFA1686F59">
+<Attribute name="conta_luz" id="93E7B0D1-9F89-FB98-D67E-F91B0AAC1925">
 <createdBy>Luiz</createdBy>
-<createdTime>2024-11-12 03:02:41 UTC</createdTime>
+<createdTime>2024-11-13 22:18:07 UTC</createdTime>
 <ownerDesignName>Diagramas</ownerDesignName>
 <engineerTo>
 <item key="C541CCF0-429F-79A7-96E8-7B2AA3F1E94A" value="true"/>
 </engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="area_desejada" id="9350B717-319E-BAB1-3BE3-AAA3CA5277D0">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-13 22:21:53 UTC</createdTime>
+<ownerDesignName>Diagramas</ownerDesignName>
+<engineerTo>
+<item key="C541CCF0-429F-79A7-96E8-7B2AA3F1E94A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qtd_paineis" id="06E0F5E1-33EB-0158-192D-328BF7DABB9E">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-13 22:28:54 UTC</createdTime>
+<ownerDesignName>Diagramas</ownerDesignName>
+<engineerTo>
+<item key="C541CCF0-429F-79A7-96E8-7B2AA3F1E94A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="potencia_total" id="59229715-71AC-595C-0CEE-F41081270F89">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-13 22:29:52 UTC</createdTime>
+<ownerDesignName>Diagramas</ownerDesignName>
+<engineerTo>
+<item key="C541CCF0-429F-79A7-96E8-7B2AA3F1E94A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="custo_instal" id="E03D4279-132F-3D82-B0A0-C927BEEDDE93">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-13 22:30:16 UTC</createdTime>
+<ownerDesignName>Diagramas</ownerDesignName>
+<engineerTo>
+<item key="C541CCF0-429F-79A7-96E8-7B2AA3F1E94A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="economia_mensal" id="963BA28C-2525-1840-B8CA-80435E852E5D">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-13 22:30:55 UTC</createdTime>
+<ownerDesignName>Diagramas</ownerDesignName>
+<engineerTo>
+<item key="C541CCF0-429F-79A7-96E8-7B2AA3F1E94A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="payback" id="370FC7AA-BF66-2E44-72BB-C126745DF058">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-13 22:31:14 UTC</createdTime>
+<ownerDesignName>Diagramas</ownerDesignName>
+<engineerTo>
+<item key="C541CCF0-429F-79A7-96E8-7B2AA3F1E94A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="energia_mes" id="3017A1D9-80FA-60F3-650F-D8394A459881">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-13 22:31:43 UTC</createdTime>
+<ownerDesignName>Diagramas</ownerDesignName>
+<engineerTo>
+<item key="C541CCF0-429F-79A7-96E8-7B2AA3F1E94A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_reg" id="083A6AE5-385F-574C-5DBB-46AEA33F1E67">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-13 22:33:56 UTC</createdTime>
+<generatorID>382C614C-CC99-7222-735B-9C6263FC4450</generatorID>
+<ownerDesignName>Diagramas</ownerDesignName>
+<engineerTo>
+<item key="C541CCF0-429F-79A7-96E8-7B2AA3F1E94A" value="true"/>
+</engineerTo>
+<referedAttribute>68E409AD-CCD3-9206-AB71-12C6F73C6556</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usu" id="A9EB7394-AD8C-107D-F41D-0FB5E5D0733E">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-13 22:37:15 UTC</createdTime>
+<generatorID>E3DAA8AA-E2AA-DF60-E4D6-4C356D2C0767</generatorID>
+<ownerDesignName>Diagramas</ownerDesignName>
+<engineerTo>
+<item key="C541CCF0-429F-79A7-96E8-7B2AA3F1E94A" value="true"/>
+</engineerTo>
+<referedAttribute>6E3AF219-90DB-B5AB-7C31-910ED620928B</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,5,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="custo_total" id="B74C357C-D0B0-F51F-A8BC-B76E1E5E35B2">
-<createdBy>Luiz</createdBy>
-<createdTime>2024-11-12 03:07:06 UTC</createdTime>
-<ownerDesignName>Diagramas</ownerDesignName>
-<engineerTo>
-<item key="C541CCF0-429F-79A7-96E8-7B2AA3F1E94A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,5,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="economia_mensal" id="F7BD36BB-BE68-4EEA-BF58-CC0657425394">
-<createdBy>Luiz</createdBy>
-<createdTime>2024-11-12 03:08:04 UTC</createdTime>
-<ownerDesignName>Diagramas</ownerDesignName>
-<engineerTo>
-<item key="C541CCF0-429F-79A7-96E8-7B2AA3F1E94A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>8</dataTypePrecision>
-<ownDataTypeParameters>,8,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="payback" id="4DD4F771-B7C1-DE53-0837-80BCF7B7EFF2">
-<createdBy>Luiz</createdBy>
-<createdTime>2024-11-12 03:08:32 UTC</createdTime>
-<ownerDesignName>Diagramas</ownerDesignName>
-<engineerTo>
-<item key="C541CCF0-429F-79A7-96E8-7B2AA3F1E94A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,4,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="energia_mes" id="5826EC73-8EAD-5A18-52F8-E49DBC9D533E">
-<createdBy>Luiz</createdBy>
-<createdTime>2024-11-12 03:25:52 UTC</createdTime>
-<ownerDesignName>Diagramas</ownerDesignName>
-<engineerTo>
-<item key="C541CCF0-429F-79A7-96E8-7B2AA3F1E94A" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>8</dataTypePrecision>
-<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

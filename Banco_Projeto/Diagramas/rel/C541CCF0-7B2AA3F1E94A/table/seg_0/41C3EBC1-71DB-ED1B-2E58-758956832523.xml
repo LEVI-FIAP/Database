@@ -1,0 +1,217 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="41C3EBC1-71DB-ED1B-2E58-758956832523" name="Relatorio">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-13 22:38:47 UTC</createdTime>
+<generatorID>2E314A65-CAD4-A1D0-D03C-1C1E481A6AF3</generatorID>
+<ownerDesignName>Diagramas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_relatorio" id="06E8EC0A-47C2-FF79-2F87-99EB582997AF">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-13 22:38:47 UTC</createdTime>
+<generatorID>F74EC0C7-92E3-879B-9B03-EFFFB9896A17</generatorID>
+<ownerDesignName>Diagramas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="consumo_mensal" id="33A884B7-A9BF-5AB5-47A4-A6C2BBD0CE12">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-13 22:38:47 UTC</createdTime>
+<generatorID>4339397A-1329-A3B2-25EC-FE5F3D825CE7</generatorID>
+<ownerDesignName>Diagramas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="conta_luz" id="8DAF0E18-356C-1F60-C332-FE3A47DD5293">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-13 22:38:47 UTC</createdTime>
+<generatorID>93E7B0D1-9F89-FB98-D67E-F91B0AAC1925</generatorID>
+<ownerDesignName>Diagramas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="area_desejada" id="C86A8ED6-A1B3-CF9E-37E7-522EFCDA3DFF">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-13 22:38:47 UTC</createdTime>
+<generatorID>9350B717-319E-BAB1-3BE3-AAA3CA5277D0</generatorID>
+<ownerDesignName>Diagramas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qtd_paineis" id="0717C86D-7CBF-CA8D-D590-D804AE4C5A5F">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-13 22:38:47 UTC</createdTime>
+<generatorID>06E0F5E1-33EB-0158-192D-328BF7DABB9E</generatorID>
+<ownerDesignName>Diagramas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="potencia_total" id="44EFBFAB-9BAE-A71A-E2D4-7A30D590BB27">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-13 22:38:47 UTC</createdTime>
+<generatorID>59229715-71AC-595C-0CEE-F41081270F89</generatorID>
+<ownerDesignName>Diagramas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="custo_instal" id="40563B73-7DEA-9C98-D4DC-1324CEC9D10A">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-13 22:38:47 UTC</createdTime>
+<generatorID>E03D4279-132F-3D82-B0A0-C927BEEDDE93</generatorID>
+<ownerDesignName>Diagramas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="economia_mensal" id="902029BB-AFFB-C18C-0117-D73AD6A4BE66">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-13 22:38:47 UTC</createdTime>
+<generatorID>963BA28C-2525-1840-B8CA-80435E852E5D</generatorID>
+<ownerDesignName>Diagramas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="payback" id="66920F1D-1C0C-478C-A682-B86AFB3C3749">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-13 22:38:47 UTC</createdTime>
+<generatorID>370FC7AA-BF66-2E44-72BB-C126745DF058</generatorID>
+<ownerDesignName>Diagramas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="energia_mes" id="D5AB4906-434B-6172-FCCA-E280C40B1B30">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-13 22:38:47 UTC</createdTime>
+<generatorID>3017A1D9-80FA-60F3-650F-D8394A459881</generatorID>
+<ownerDesignName>Diagramas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Regiao_id_reg" id="1CF20052-CB2D-0572-3296-48A6334B2C5B">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-13 22:38:47 UTC</createdTime>
+<generatorID>083A6AE5-385F-574C-5DBB-46AEA33F1E67</generatorID>
+<ownerDesignName>Diagramas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="56CB1A06-8624-ECB6-C73A-BB4D337A32CF" referredColumn="C79DFBC3-B88F-CD06-3D02-642F350DA885"/>
+</associations>
+</Column>
+<Column name="Usuario_id_usu" id="05D64100-D941-5EB7-4C50-84524EA229D1">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-13 22:38:47 UTC</createdTime>
+<generatorID>A9EB7394-AD8C-107D-F41D-0FB5E5D0733E</generatorID>
+<ownerDesignName>Diagramas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BBC8C9A2-02B8-F359-89B5-BFBBEDA2DD8C" referredColumn="21CFB30C-9828-3E12-B7BD-95A62F91461F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CA35E189-E0A1-F33E-9978-3DF0B6D37869" name="Relatorio_PK">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-13 22:38:47 UTC</createdTime>
+<generatorID>B0BF77B8-A88F-75E1-A7B9-4022D929E327</generatorID>
+<ownerDesignName>Diagramas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06E8EC0A-47C2-FF79-2F87-99EB582997AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="855E58E6-A863-A289-8B73-FA8798076F06" name="Relatorio__IDX">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-13 22:38:47 UTC</createdTime>
+<ownerDesignName>Diagramas</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>E3DAA8AA-E2AA-DF60-E4D6-4C356D2C0767</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="05D64100-D941-5EB7-4C50-84524EA229D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="125E0552-38F9-5D0F-B340-ADA3CC8D83F5" name="Relatorio_Regiao_FK">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-13 22:38:47 UTC</createdTime>
+<generatorID>382C614C-CC99-7222-735B-9C6263FC4450</generatorID>
+<ownerDesignName>Diagramas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1CF20052-CB2D-0572-3296-48A6334B2C5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="130CD96F-00E1-D9C0-0B33-616830D52CA8" name="Relatorio_Usuario_FK">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-13 22:38:47 UTC</createdTime>
+<generatorID>E3DAA8AA-E2AA-DF60-E4D6-4C356D2C0767</generatorID>
+<ownerDesignName>Diagramas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05D64100-D941-5EB7-4C50-84524EA229D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
