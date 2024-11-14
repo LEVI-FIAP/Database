@@ -164,12 +164,12 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_usu" id="A9EB7394-AD8C-107D-F41D-0FB5E5D0733E">
+<Attribute name="id_usu" id="1535EEB3-43B6-E2EC-B997-526280FB17B6">
 <createdBy>Luiz</createdBy>
-<createdTime>2024-11-13 22:37:15 UTC</createdTime>
-<generatorID>E3DAA8AA-E2AA-DF60-E4D6-4C356D2C0767</generatorID>
+<createdTime>2024-11-14 18:12:00 UTC</createdTime>
+<generatorID>F1DF7907-BD81-922F-A027-68209904F369</generatorID>
 <ownerDesignName>Diagramas</ownerDesignName>
 <engineerTo>
 <item key="C541CCF0-429F-79A7-96E8-7B2AA3F1E94A" value="true"/>
