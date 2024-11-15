@@ -102,3 +102,5 @@ JOIN REGIAO rg on rg.id_reg = rel.id_reg
 group by us.NOME_USUARIO, rg.NOME_REGIAO
 having avg(rel.CUSTO_INSTAL) > 25000
 order by REGIAO, NOMEUSUARIO;
+
+COMMIT;
