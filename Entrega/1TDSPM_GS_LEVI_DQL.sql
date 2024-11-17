@@ -13,7 +13,7 @@ order by tf.nome;
 select distinct ps.id_projeto as ID_PROJETO, ps.descricao as DESCRICAO, ps.custo as CUSTO from PF0645.projetos_sustentaveis ps
 join PF0645.tipo_fontes tf on tf.ID_TIPO_FONTE = ps.ID_TIPO_FONTE
 where tf.nome in ('Eólica', 'Solar')
-order by ps.descricao;
+order by ps.descricao asc;
 
 -- 3)
 select ps.id_projeto, ps.descricao, ps.status from PF0645.projetos_sustentaveis ps
