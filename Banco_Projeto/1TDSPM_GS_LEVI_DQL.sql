@@ -79,22 +79,29 @@ INSERT INTO Relatorio (id_relatorio, consumo_mensal, conta_luz, area_desejada, q
 INSERT INTO Relatorio (id_relatorio, consumo_mensal, conta_luz, area_desejada, qtd_paineis, potencia_total, custo_instal, economia_mensal, payback, energia_mes, id_usu, id_reg) VALUES (20, 550.00, 210.00, 69, 19, 6.1, 29500.00, 820.00, 3.3, 180, 1, 5);
 
 
--- 1)
-select rg.nome_regiao as tiporegiao, count(rt.QTD_PAINEIS) as quantidadepaineis from RELATORIO rt join REGIAO rg on rg.ID_REG = rt.ID_REG group by rg.NOME_REGIAO having count(rt.QTD_PAINEIS) > 2 order BY rg.NOME_REGIAO;
+-- 1) Retornando a quantidade de painéiss, por região.
+select rg.nome_regiao as tiporegiao, sum(rt.QTD_PAINEIS) as quantidadepaineis from RELATORIO rt 
+join REGIAO rg on rg.ID_REG = rt.ID_REG 
+group by rg.NOME_REGIAO having count(rt.QTD_PAINEIS) > 2 
+order BY rg.NOME_REGIAO;
 
--- 2)
-select rel.id_usu as id_usuario, rel.AREA_DESEJADA as areaDesejada, rel.custo_instal as CUSTO from RELATORIO rel join REGIAO rg on rg.ID_REG = rel.ID_REG where rg.NOME_REGIAO in ('Norte', 'Nordeste') order by rg.NOME_REGIAO;
+-- 2) Retornando o id do usuário, area desejada e custo de instalação, para as áreas Norte e Nordeste.
+select rel.id_usu as id_usuario, rg.NOME_REGIAO as REGIAO, rel.AREA_DESEJADA as areaDesejada, rel.custo_instal as CUSTO from RELATORIO rel 
+join REGIAO rg on rg.ID_REG = rel.ID_REG where rg.NOME_REGIAO in ('Norte', 'Nordeste') 
+order by rel.AREA_DESEJADA;
 
--- 3)
-select id_relatorio, AREA_DESEJADA, CUSTO_INSTAL from RELATORIO where CUSTO_INSTAL > 25000 and CONTA_LUZ > 150 order by ID_RELATORIO;
+-- 3) Retornando o relatório, área desejada e custo de instalação onde o custo é maior que 250000 e a conta de luz é maior que 200.
+select id_relatorio, AREA_DESEJADA, CUSTO_INSTAL from RELATORIO 
+where CUSTO_INSTAL > 25000 and CONTA_LUZ > 200 order by ID_RELATORIO;
 
--- 4)
+-- 4) Retornando a média do custo de instalação, agrupado por região.
 select rg.nome_regiao as REGIAO, round(avg(rel.custo_instal), 2) AS MEDIACUSTO from RELATORIO rel
 join REGIAO rg on rg.ID_REG = rel.ID_REG
 group by rg.NOME_REGIAO
 order by MEDIACUSTO desc;
 
--- 5)
+-- 5) Retornando a região, nome de usuário, quantidade de relatórios por usuário por região, e a média do custo dessas instalações,
+--  onde o custo foi maior do que 250000, ordenado por região e nome de usuário.
 select rg.nome_regiao as REGIAO, us.nome_usuario as NOMEUSUARIO, count(rel.id_relatorio) as QUANTIDADERELATORIO, round(avg(rel.custo_instal), 2) as MEDIACUSTO
 FROM RELATORIO rel
 JOIN USUARIO US on US.ID_USU = rel.ID_USU
