@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DBE4E9D8-5153-A5E1-7E54-90025A3CDD4A" name="Usuario">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-14 18:12:43 UTC</createdTime>
+<generatorID>CF460994-5191-DF76-9238-A84334D0911C</generatorID>
+<ownerDesignName>Diagramas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usu" id="46A802AB-545F-28ED-79EC-EE2E60EE288C">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-14 18:12:43 UTC</createdTime>
+<generatorID>6E3AF219-90DB-B5AB-7C31-910ED620928B</generatorID>
+<ownerDesignName>Diagramas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="843A8ED5-C37B-5A3B-DFD3-11C5CCAD8560">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-14 18:12:43 UTC</createdTime>
+<generatorID>E038536E-C9ED-5039-F4D5-347F52AE414B</generatorID>
+<ownerDesignName>Diagramas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="senha" id="1E16DDC5-E061-E21D-6374-75A5C64301F3">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-14 18:12:43 UTC</createdTime>
+<generatorID>39D7ACA2-1652-FA88-0013-0A99C2BE74CC</generatorID>
+<ownerDesignName>Diagramas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_usuario" id="8BD98A9C-5EAD-E9D0-B4D0-5F1FA4E6A709">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-14 18:12:43 UTC</createdTime>
+<generatorID>0DD209BF-B283-B9F1-6876-8BA2AE5DFB45</generatorID>
+<ownerDesignName>Diagramas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="90E8A396-CE89-B4FF-BBE4-240124FF459C" name="Usuario_PK">
+<createdBy>Luiz</createdBy>
+<createdTime>2024-11-14 18:12:43 UTC</createdTime>
+<generatorID>9AB41A22-5B29-6E51-FFD7-368D7DC5D4FA</generatorID>
+<ownerDesignName>Diagramas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46A802AB-545F-28ED-79EC-EE2E60EE288C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
